@@ -10,6 +10,12 @@
 6. Run `npm run dev`. This start the backend server.
 10. You can now make API calls to `http://localhost:3001/api/`
 
+### Endpoints:
+- GET http://localhost:3001/api/accounts/:userEmail
+- POST http://localhost:3001/api/transactions/:userEmail/send
+- POST http://localhost:3001/api/transactions/:userEmail/receive
+
+
 ### TODO:
 
 - Enable https
