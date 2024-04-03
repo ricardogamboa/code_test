@@ -15,9 +15,15 @@
 - POST http://localhost:3001/api/transactions/:userEmail/send
 - POST http://localhost:3001/api/transactions/:userEmail/receive
 
+### FEATURES:
+- Backend and DB balance validation
+- Row lock to ensure multiple users update the same record correctly
+- DB atomic transaction to avoid transactions/balance issues
+- Avoid ORM to use simple DB connector
 
 ### TODO:
 
+- Add DB indexes
 - Enable https
 - Enable CI/CD
 - Add logger
